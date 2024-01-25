@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/models.py /autograder/source/models.py
+cd /autograder/source
+
+python3 autograder.py
